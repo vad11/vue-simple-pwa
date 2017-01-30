@@ -19,7 +19,8 @@ import map from './router/map.js';
 // Make new VueRouter Instance
 Vue.use(VueRouter)
 let router = new VueRouter({
-  history: true
+  hashbang: false,
+  history: true,
 })
 
 // Register Routes
